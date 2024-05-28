@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1f1feb5f8fea2ccbf5bb22e871a91db0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1f1feb5f8fea2ccbf5bb22e871a91db0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1f1feb5f8fea2ccbf5bb22e871a91db0 = L.map(
+                "map_1f1feb5f8fea2ccbf5bb22e871a91db0",
+                {
+                    center: [24.140081000000002, -104.01791699999998],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c2a600616fd122640f7d9e5475f16437 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c2a600616fd122640f7d9e5475f16437.addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var marker_08d768c79b64f2cf7534aab38594d4fa = L.marker(
+                [31.71947, -106.4514],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_99657f8c6c538f939ff416a35cf8b9b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08d768c79b64f2cf7534aab38594d4fa.setIcon(icon_99657f8c6c538f939ff416a35cf8b9b5);
+        
+    
+        var popup_aa3bd1d76146e441d598b2590f64aa92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb8572fcfa819f99ba939d9702b063d3 = $(`<div id="html_bb8572fcfa819f99ba939d9702b063d3" style="width: 100.0%; height: 100.0%;">DÍAZ GAS  S.A. DE C.V.<br>Regular: 15.71<br>Premium: 17.93</div>`)[0];
+                popup_aa3bd1d76146e441d598b2590f64aa92.setContent(html_bb8572fcfa819f99ba939d9702b063d3);
+            
+        
+
+        marker_08d768c79b64f2cf7534aab38594d4fa.bindPopup(popup_aa3bd1d76146e441d598b2590f64aa92)
+        ;
+
+        
+    
+    
+            var marker_7fa0da9036bb3d0098b9c7f81f0c5c7f = L.marker(
+                [20.71413, -103.3042],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_48b0cd89efbecb18d9c61fdbdd0f0f6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7fa0da9036bb3d0098b9c7f81f0c5c7f.setIcon(icon_48b0cd89efbecb18d9c61fdbdd0f0f6d);
+        
+    
+        var popup_83a95de1c8b79af3bc66ee8e5447cbe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_825ecaaf35614d570dab5e8f4c45fe93 = $(`<div id="html_825ecaaf35614d570dab5e8f4c45fe93" style="width: 100.0%; height: 100.0%;">COMBU-EXPRESS  S.A. DE C.V.<br>Regular: 16.52<br>Premium: 18.4</div>`)[0];
+                popup_83a95de1c8b79af3bc66ee8e5447cbe0.setContent(html_825ecaaf35614d570dab5e8f4c45fe93);
+            
+        
+
+        marker_7fa0da9036bb3d0098b9c7f81f0c5c7f.bindPopup(popup_83a95de1c8b79af3bc66ee8e5447cbe0)
+        ;
+
+        
+    
+    
+            var marker_46217bd1bffa38e85a50342aa63d3c2f = L.marker(
+                [26.92554, -101.4189],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_ca2a7e7b8d321bfa50c07bbe19f95eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46217bd1bffa38e85a50342aa63d3c2f.setIcon(icon_ca2a7e7b8d321bfa50c07bbe19f95eaf);
+        
+    
+        var popup_5b4a647d0e173630cee9fd0f1748b146 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d995a7e275df32c32112704d7fec08a = $(`<div id="html_1d995a7e275df32c32112704d7fec08a" style="width: 100.0%; height: 100.0%;">AUTOSERVICIO BERLANGA S.A. DE C.V.<br>Regular: 16.03<br>Premium: 17.8</div>`)[0];
+                popup_5b4a647d0e173630cee9fd0f1748b146.setContent(html_1d995a7e275df32c32112704d7fec08a);
+            
+        
+
+        marker_46217bd1bffa38e85a50342aa63d3c2f.bindPopup(popup_5b4a647d0e173630cee9fd0f1748b146)
+        ;
+
+        
+    
+    
+            var marker_e47572f8881dd0f79cb7853397cfc602 = L.marker(
+                [21.4739, -105.1947],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_e535bcd258161df34a3d7040ec9afc32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e47572f8881dd0f79cb7853397cfc602.setIcon(icon_e535bcd258161df34a3d7040ec9afc32);
+        
+    
+        var popup_02243549a76a0a388642618ae769cff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39427471ecf83dd5eedbba613ae95be1 = $(`<div id="html_39427471ecf83dd5eedbba613ae95be1" style="width: 100.0%; height: 100.0%;">GRUPO OCTANO  S.A. DE C.V<br>Regular: 16.33<br>Premium: nan</div>`)[0];
+                popup_02243549a76a0a388642618ae769cff9.setContent(html_39427471ecf83dd5eedbba613ae95be1);
+            
+        
+
+        marker_e47572f8881dd0f79cb7853397cfc602.bindPopup(popup_02243549a76a0a388642618ae769cff9)
+        ;
+
+        
+    
+    
+            var marker_a6004db2f5d657e3b4b3fb7f0f5abd1d = L.marker(
+                [19.58616, -99.1973],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_82f5c1c43f24277bbf1ba9a62f865033 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6004db2f5d657e3b4b3fb7f0f5abd1d.setIcon(icon_82f5c1c43f24277bbf1ba9a62f865033);
+        
+    
+        var popup_032d6f5cf83fd986559c14e5bc2f4314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db8b85cac66dbaa7ace3a62c9d28cbe2 = $(`<div id="html_db8b85cac66dbaa7ace3a62c9d28cbe2" style="width: 100.0%; height: 100.0%;">Servicio Sevilla  S.A. de C.V.<br>Regular: 16.27<br>Premium: 18.14</div>`)[0];
+                popup_032d6f5cf83fd986559c14e5bc2f4314.setContent(html_db8b85cac66dbaa7ace3a62c9d28cbe2);
+            
+        
+
+        marker_a6004db2f5d657e3b4b3fb7f0f5abd1d.bindPopup(popup_032d6f5cf83fd986559c14e5bc2f4314)
+        ;
+
+        
+    
+    
+            var marker_64dc2f25ad664c49f2b8240cbd2edb10 = L.marker(
+                [16.73187, -92.65437],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_2e486f436dba776281d6fa94cf998826 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64dc2f25ad664c49f2b8240cbd2edb10.setIcon(icon_2e486f436dba776281d6fa94cf998826);
+        
+    
+        var popup_9f15f1959052bed1fbc31ee37c387e7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74b2329439818e22f44eb2c4e92a5544 = $(`<div id="html_74b2329439818e22f44eb2c4e92a5544" style="width: 100.0%; height: 100.0%;">GASOLINERA HUITEPEC  S.A. DE C.V.<br>Regular: 15.73<br>Premium: 17.5</div>`)[0];
+                popup_9f15f1959052bed1fbc31ee37c387e7c.setContent(html_74b2329439818e22f44eb2c4e92a5544);
+            
+        
+
+        marker_64dc2f25ad664c49f2b8240cbd2edb10.bindPopup(popup_9f15f1959052bed1fbc31ee37c387e7c)
+        ;
+
+        
+    
+    
+            var marker_9eb5d8aac222bc0c38065fca98fa1355 = L.marker(
+                [24.02956, -104.6217],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_023431c17f0f6e4c9aa52343c93333b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9eb5d8aac222bc0c38065fca98fa1355.setIcon(icon_023431c17f0f6e4c9aa52343c93333b0);
+        
+    
+        var popup_3d4eb5542ee387f4771ff29513d590eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_551f79760587b1fae2cab8f3c5bd8ce0 = $(`<div id="html_551f79760587b1fae2cab8f3c5bd8ce0" style="width: 100.0%; height: 100.0%;">SUPER SERVICIO MIVASA  S. A. DE C. V.<br>Regular: 16.27<br>Premium: 18.04</div>`)[0];
+                popup_3d4eb5542ee387f4771ff29513d590eb.setContent(html_551f79760587b1fae2cab8f3c5bd8ce0);
+            
+        
+
+        marker_9eb5d8aac222bc0c38065fca98fa1355.bindPopup(popup_3d4eb5542ee387f4771ff29513d590eb)
+        ;
+
+        
+    
+    
+            var marker_ca4d90012dd08d7da5eee43f96943c13 = L.marker(
+                [28.73367, -106.1008],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_2fb7db5ba63e6364ec3a35f71562cf4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca4d90012dd08d7da5eee43f96943c13.setIcon(icon_2fb7db5ba63e6364ec3a35f71562cf4f);
+        
+    
+        var popup_077e74fc8e53f3d5aed99e05ced763fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08c3062d84e6c53befd4b16f7f752654 = $(`<div id="html_08c3062d84e6c53befd4b16f7f752654" style="width: 100.0%; height: 100.0%;">COMBUSTIBLES Y LUBRICANTES ATENAS S.A. DE C.V.<br>Regular: 16.12<br>Premium: 18.08</div>`)[0];
+                popup_077e74fc8e53f3d5aed99e05ced763fb.setContent(html_08c3062d84e6c53befd4b16f7f752654);
+            
+        
+
+        marker_ca4d90012dd08d7da5eee43f96943c13.bindPopup(popup_077e74fc8e53f3d5aed99e05ced763fb)
+        ;
+
+        
+    
+    
+            var marker_d07bd4e9a972e8a1a6dc60e0c3bd50c2 = L.marker(
+                [32.45102, -117.0249],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_2048c9f3257d5fcc91a8f10098a9aaf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d07bd4e9a972e8a1a6dc60e0c3bd50c2.setIcon(icon_2048c9f3257d5fcc91a8f10098a9aaf0);
+        
+    
+        var popup_088d3cee63e2a06a6cfd373a5af02cfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_934a32f5062ceb70357debe016321450 = $(`<div id="html_934a32f5062ceb70357debe016321450" style="width: 100.0%; height: 100.0%;">BECKTROP OPERADORA S.A. DE C.V.<br>Regular: 16.04<br>Premium: nan</div>`)[0];
+                popup_088d3cee63e2a06a6cfd373a5af02cfd.setContent(html_934a32f5062ceb70357debe016321450);
+            
+        
+
+        marker_d07bd4e9a972e8a1a6dc60e0c3bd50c2.bindPopup(popup_088d3cee63e2a06a6cfd373a5af02cfd)
+        ;
+
+        
+    
+    
+            var marker_2cec1e9b51199cb350c8229962113c58 = L.marker(
+                [19.03549, -104.2109],
+                {}
+            ).addTo(map_1f1feb5f8fea2ccbf5bb22e871a91db0);
+        
+    
+            var icon_4e343f038be2d9e540344ea42c891b92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2cec1e9b51199cb350c8229962113c58.setIcon(icon_4e343f038be2d9e540344ea42c891b92);
+        
+    
+        var popup_cd078a4324e28c6e07ab86a444b6230b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_557f2c16e6b6c8144ed17923f885b015 = $(`<div id="html_557f2c16e6b6c8144ed17923f885b015" style="width: 100.0%; height: 100.0%;">RAMCAL S.A. DE C.V.<br>Regular: 15.95<br>Premium: 17.71</div>`)[0];
+                popup_cd078a4324e28c6e07ab86a444b6230b.setContent(html_557f2c16e6b6c8144ed17923f885b015);
+            
+        
+
+        marker_2cec1e9b51199cb350c8229962113c58.bindPopup(popup_cd078a4324e28c6e07ab86a444b6230b)
+        ;
+
+        
+    
+</script>
+</html>
